@@ -176,6 +176,7 @@
             this.txtPrecio.Name = "txtPrecio";
             this.txtPrecio.Size = new System.Drawing.Size(168, 27);
             this.txtPrecio.TabIndex = 10;
+            this.txtPrecio.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPrecio_KeyPress);
             this.txtPrecio.Leave += new System.EventHandler(this.txtPrecio_Leave);
             // 
             // txtUrlImagen
@@ -210,7 +211,7 @@
             // 
             // pbxImagen
             // 
-            this.pbxImagen.Location = new System.Drawing.Point(505, 181);
+            this.pbxImagen.Location = new System.Drawing.Point(499, 181);
             this.pbxImagen.Name = "pbxImagen";
             this.pbxImagen.Size = new System.Drawing.Size(306, 243);
             this.pbxImagen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
